@@ -1,0 +1,7 @@
+# Run commands from the repository root; replace this with an absolute path if needed.
+path: data/detection
+train: images/train
+val: images/val
+test: images/test
+names:
+  0: vessel

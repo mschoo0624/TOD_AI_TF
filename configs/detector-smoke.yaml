@@ -1,0 +1,13 @@
+# One CPU epoch checks the workflow, not model quality.
+model: yolo11n.pt
+data: configs/detection-data.yaml
+epochs: 1
+imgsz: 320
+batch: 2
+device: cpu
+workers: 0
+seed: 42
+project: outputs/detection
+name: smoke
+hsv_h: 0.0
+hsv_s: 0.0

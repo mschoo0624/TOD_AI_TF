@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+runs/
+*.pt
+*.onnx
+data/**/*
+!data/**/
+!data/**/.gitkeep
+outputs/
+weights/
+.pytest_cache/
+*.egg-info/
+*.mp4
+*.avi
+.ipynb_checkpoints/

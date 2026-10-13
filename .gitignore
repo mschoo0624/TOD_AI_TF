@@ -5,7 +5,6 @@ __pycache__/
 runs/
 *.pt
 *.onnx
-data/**/*
 !data/**/
 !data/**/.gitkeep
 outputs/
